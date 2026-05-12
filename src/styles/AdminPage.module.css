@@ -1,0 +1,200 @@
+.header {
+  width: 1140px;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 25px;
+  border: 1px solid #e4e4e4;
+  border-radius: 16px;
+}
+
+.header img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 22px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.header input {
+  display: inline-block;
+  margin-top: -12px;
+  background-color: transparent;
+  vertical-align: middle;
+}
+
+.header .profile {
+  width: 145px;
+  height: 52px;
+  display: flex;
+  margin-left: 25px;
+  border-right: 1px solid #e4e4e4;
+  margin-top: 10px;
+}
+
+.profile img {
+  width: 46px;
+  height: 46px;
+  margin: 2px 11px;
+}
+
+.profile p {
+  font-family: "Vazir";
+  font-weight: 400;
+  font-size: 16px;
+  color: #282828;
+}
+
+.profile span {
+  display: block;
+  font-family: "Vazir";
+  font-weight: 300;
+  font-size: 14px;
+  color: #282828;
+  margin-top: -4px;
+}
+
+.title {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.management {
+  display: flex;
+}
+
+.management img {
+  width: 30px;
+  height: 30px;
+  margin-top: 50px;
+}
+
+.management p {
+  margin-top: 44px;
+  margin-right: 7px;
+  font-family: "Vazir";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.title button {
+  width: 132px;
+  height: 45px;
+  padding: 10px;
+  margin-top: 45px;
+  background-color: #55a3f0;
+  border-radius: 10px;
+  font-family: "Vazir";
+  font-weight: 400;
+  font-size: 16px;
+  transition: all 0.1s ease-in;
+}
+
+.title button:hover {
+  background-color: #1f8ffe;
+}
+
+.tableContainer {
+  width: 1140px;
+  height: 737px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #f2f2f2;
+  border-bottom: transparent;
+  border-radius: 30px 30px 0 0;
+}
+
+.table thead {
+  background-color: #f2f2f2;
+}
+
+.table th {
+  padding: 20px 50px;
+  font-family: "Vazir";
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+  color: #282828;
+}
+
+.table th:first-child {
+  border-top-right-radius: 30px;
+}
+
+.table th:last-child {
+  border-top-left-radius: 30px;
+}
+
+.table td {
+  font-family: "Vazir";
+  font-weight: 400;
+  font-size: 13px;
+  text-align: right;
+  padding: 10px 50px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.table button {
+  width: 20px;
+  height: 20px;
+  background: none;
+  margin-top: -5px;
+}
+
+.table button:hover {
+  background: none;
+}
+
+.table button:first-child {
+  position: relative;
+  right: 10px;
+}
+
+.table button:last-child {
+  position: relative;
+  right: 25px;
+}
+
+.pagination {
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+.pagination button {
+  width: 35px;
+  height: 35px;
+  line-height: 17px;
+  margin-left: 10px;
+  border: 2px solid #8d8d8d80;
+  border-radius: 42px;
+  background-color: transparent;
+  color: #8d8d8d80;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.pagination .selected {
+  background-color: #55a3f0;
+  color: #fff;
+  border-color: #55a3f0;
+}
