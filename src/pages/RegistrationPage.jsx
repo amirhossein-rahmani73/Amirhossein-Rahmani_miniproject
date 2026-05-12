@@ -15,7 +15,7 @@ function RegistrationPage() {
     
     if (username && password && password === passwordConfirm) {
       const { response, error } = await register(username, password);
-      console.log({ response, error });
+      
       if (response) {
         setMessage("ثبت نام با موفقیت انجام شد.");
         navigate("/login");
