@@ -1,0 +1,21 @@
+.container {
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container img {
+  width: 700px;
+  border-radius: 30px;
+}
+
+.container p {
+  font-size: 28px;
+  margin-top: 25px;
+}
+
+.container a {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+}

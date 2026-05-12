@@ -15,7 +15,7 @@ function LoginPage() {
     if (!username || !password) return;
 
     const { response, error } = await login(username, password);
-    // console.log({ response, error });
+    
     if (response) {
       setMessage("ورود با موفقیت انجام شد.");
       setCookie(response.data);
