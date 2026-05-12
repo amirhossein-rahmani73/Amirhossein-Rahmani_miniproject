@@ -1,0 +1,68 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(5px);
+}
+
+.addModal {
+  width: 460px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.addModal p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: -20px;
+}
+
+.addModal label {
+  width: 100px;
+  height: 22px;
+  margin-top: 55px;
+  font-weight: 500;
+}
+
+.addModal input {
+  margin-top: 10px;
+}
+
+.addModal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addModal .actions {
+  display: flex;
+  height: 42px;
+  margin-top: 75px;
+}
+
+.addModal button {
+  width: 185px;
+  height: 42px;
+  padding: 10px;
+  margin-top: 0;
+  border-radius: 10px;
+  background-color: #dfdfdf;
+  color: #282828cc;
+  font-size: 14px;
+}
+
+.addModal button:first-child {
+  background-color: #55a3f0;
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+
+.addModal button:first-child:hover {
+  background-color: #1f8ffe;
+}
